@@ -83,26 +83,331 @@
           <div class="flex justify-center pt-2 pb-4">
             <div class="w-10 h-1 bg-gray-300 rounded-full"></div>
           </div>
-          <div id="drawerContent" class="overflow-y-auto h-full px-4 pb-6">
-            <ul class="space-y-3">
-              <li class="bg-gray-100 p-3 rounded-lg">💳 تراکنش ۱ — ۲۵۰,۰۰۰ ریال</li>
-              <li class="bg-gray-100 p-3 rounded-lg">💳 تراکنش ۲ — ۴۸۰,۰۰۰ ریال</li>
-              <li class="bg-gray-100 p-3 rounded-lg">💳 تراکنش ۳ — ۷۵۰,۰۰۰ ریال</li>
-              <li class="bg-gray-100 p-3 rounded-lg">💳 تراکنش ۴ — ۱,۲۵۰,۰۰۰ ریال</li>
-              <li class="bg-gray-100 p-3 rounded-lg">💳 تراکنش ۵ — ۲,۸۰۰,۰۰۰ ریال</li>
-              <li class="bg-gray-100 p-3 rounded-lg">💳 تراکنش ۶ — ۹۵۰,۰۰۰ ریال</li>
-              <li class="bg-gray-100 p-3 rounded-lg">💳 تراکنش ۷ — ۱,۵۰۰,۰۰۰ ریال</li>
-              <li class="bg-gray-100 p-3 rounded-lg">💳 تراکنش ۸ — ۷۵۰,۰۰۰ ریال</li>
-              <li class="bg-gray-100 p-3 rounded-lg">💳 تراکنش ۹ — ۳۵۰,۰۰۰ ریال</li>
-              <li class="bg-gray-100 p-3 rounded-lg">💳 تراکنش ۱۰ — ۵۰۰,۰۰۰ ریال</li>
-              <li class="bg-gray-100 p-3 rounded-lg">💳 تراکنش ۱۱ — ۹۵۰,۰۰۰ ریال</li>
-              <li class="bg-gray-100 p-3 rounded-lg">💳 تراکنش ۱۲ — ۱,۵۰۰,۰۰۰ ریال</li>
-              <li class="bg-gray-100 p-3 rounded-lg">💳 تراکنش ۱۳ — ۷۵۰,۰۰۰ ریال</li>
-              <li class="bg-gray-100 p-3 rounded-lg">💳 تراکنش ۱۴ — ۳۵۰,۰۰۰ ریال</li>
-              <li class="bg-gray-100 p-3 rounded-lg">💳 تراکنش ۱۵ — ۵۰۰,۰۰۰ ریال</li>
-              <li class="bg-gray-100 p-3 rounded-lg">💳 تراکنش ۱۶ — ۳۵۰,۰۰۰ ریال</li>
-              <li class="bg-gray-100 p-3 rounded-lg">💳 تراکنش ۱۷ — ۵۰۰,۰۰۰ ریال</li>
-            </ul>
+          <div id="drawerContent" class="grid grid-cols-[80px_minmax(0,1fr)_auto] gap-y-6 items-center overflow-y-auto h-full px-8 pb-6 cursor-default">
+            <div class="h-13 w-13 rounded-full bg-[#63dc915b] flex justify-center items-center">
+              <img class="size-6" src="/src/img/inbox-archive-line.png" alt="دریافت پایا" />
+            </div>
+            <div>
+              <span class="text-sm block">دریافت پایا</span><span class="text-[12px]">چهارشنبه، ۱۴ آبان ۱۴۰۴ ۱۵:۳۰</span>
+            </div>
+            <div class="justify-self-end">
+              <span class="bg-[#51d88590]">۲۵۰,۰۰۰ ریال</span>
+            </div>
+            <div class="h-13 w-13 rounded-full bg-[#d4d4d48a] flex justify-center items-center">
+              <img class="size-6" src="/src/img/arrow-left-right-line.png" alt="انتقال به کارت" />
+            </div>
+            <div>
+              <span class="text-sm block">انتقال به کارت</span><span class="text-[12px]">چهارشنبه، ۱۴ آبان ۱۴۰۴ ۱۵:۳۰</span>
+            </div>
+            <div class="justify-self-end">
+              <span>۴۸۰,۰۰۰ ریال</span>
+            </div>
+            <div class="h-13 w-13 rounded-full bg-[#d4d4d48a] flex justify-center items-center">
+              <img class="size-6" src="/src/img/shopping-cart-line.png" alt="خرید از فروشگاه" />
+            </div>
+            <div>
+              <span class="text-sm block">خرید از فروشگاه</span><span class="text-[12px]">چهارشنبه، ۱۴ آبان ۱۴۰۴ ۱۵:۳۰</span>
+            </div>
+            <div class="justify-self-end">
+              <span>۷۵۰,۰۰۰ ریال</span>
+            </div>
+            <div class="h-13 w-13 rounded-full bg-[#63dc915b] flex justify-center items-center">
+              <img class="size-6" src="/src/img/inbox-archive-line.png" alt="دریافت از کارت" />
+            </div>
+            <div>
+              <span class="text-sm block">دریافت از کارت</span><span class="text-[12px]">چهارشنبه، ۱۴ آبان ۱۴۰۴ ۱۵:۳۰</span>
+            </div>
+            <div class="justify-self-end">
+              <span class="bg-[#51d88590]">۱,۲۵۰,۰۰۰ ریال</span>
+            </div>
+            <div class="h-13 w-13 rounded-full bg-[#63dc915b] flex justify-center items-center">
+              <img class="size-6" src="/src/img/inbox-archive-line.png" alt="دریافت از کارت" />
+            </div>
+            <div>
+              <span class="text-sm block">دریافت از کارت</span><span class="text-[12px]">چهارشنبه، ۱۴ آبان ۱۴۰۴ ۱۵:۳۰</span>
+            </div>
+            <div class="justify-self-end">
+              <span class="bg-[#51d88590]">۲,۸۰۰,۰۰۰ ریال</span>
+            </div>
+            <div class="h-13 w-13 rounded-full bg-[#d4d4d48a] flex justify-center items-center">
+              <img class="size-6" src="/src/img/shopping-bag-4-line.png" alt="خرید اینترنتی" />
+            </div>
+            <div>
+              <span class="text-sm block">خرید اینترنتی</span><span class="text-[12px]">چهارشنبه، ۱۴ آبان ۱۴۰۴ ۱۵:۳۰</span>
+            </div>
+            <div class="justify-self-end">
+              <span>۹۵۰,۰۰۰ ریال</span>
+            </div>
+            <div class="h-13 w-13 rounded-full bg-[#63dc915b] flex justify-center items-center">
+              <img class="size-6" src="/src/img/inbox-archive-line.png" alt="دریافت پایا" />
+            </div>
+            <div>
+              <span class="text-sm block">دریافت پایا</span><span class="text-[12px]">چهارشنبه، ۱۴ آبان ۱۴۰۴ ۱۵:۳۰</span>
+            </div>
+            <div class="justify-self-end">
+              <span class="bg-[#51d88590]">۱,۵۰۰,۰۰۰ ریال</span>
+            </div>
+            <div class="h-13 w-13 rounded-full bg-[#63dc915b] flex justify-center items-center">
+              <img class="size-6" src="/src/img/inbox-archive-line.png" alt="دریافت پایا" />
+            </div>
+            <div>
+              <span class="text-sm block">دریافت پایا</span><span class="text-[12px]">چهارشنبه، ۱۴ آبان ۱۴۰۴ ۱۵:۳۰</span>
+            </div>
+            <div class="justify-self-end">
+              <span class="bg-[#51d88590]">۷۵۰,۰۰۰ ریال</span>
+            </div>
+            <div class="h-13 w-13 rounded-full bg-[#d4d4d48a] flex justify-center items-center">
+              <img class="size-6" src="/src/img/calendar-check-line.png" alt="پرداخت قسط وام" />
+            </div>
+            <div>
+              <span class="text-sm block">پرداخت قسط وام</span><span class="text-[12px]">چهارشنبه، ۱۴ آبان ۱۴۰۴ ۱۵:۳۰</span>
+            </div>
+            <div class="justify-self-end">
+              <span>۱,۵۰۰,۰۰۰ ریال</span>
+            </div>
+            <div class="h-13 w-13 rounded-full bg-[#63dc915b] flex justify-center items-center">
+              <img class="size-6" src="/src/img/inbox-archive-line.png" alt="دریافت از سپرده" />
+            </div>
+            <div>
+              <span class="text-sm block">دریافت از سپرده</span><span class="text-[12px]">چهارشنبه، ۱۴ آبان ۱۴۰۴ ۱۵:۳۰</span>
+            </div>
+            <div class="justify-self-end">
+              <span class="bg-[#51d88590]">۴۸۰,۰۰۰ ریال</span>
+            </div>
+            <div class="h-13 w-13 rounded-full bg-[#d4d4d48a] flex justify-center items-center">
+              <img class="size-6" src="/src/img/arrow-left-right-line.png" alt="انتقال به سپرده" />
+            </div>
+            <div>
+              <span class="text-sm block">انتقال به سپرده</span><span class="text-[12px]">چهارشنبه، ۱۴ آبان ۱۴۰۴ ۱۵:۳۰</span>
+            </div>
+            <div class="justify-self-end">
+              <span>۳۵۰,۰۰۰ ریال</span>
+            </div>
+            <div class="h-13 w-13 rounded-full bg-[#63dc915b] flex justify-center items-center">
+              <img class="size-6" src="/src/img/inbox-archive-line.png" alt="دریافت از سپرده" />
+            </div>
+            <div>
+              <span class="text-sm block">دریافت از سپرده</span><span class="text-[12px]">چهارشنبه، ۱۴ آبان ۱۴۰۴ ۱۵:۳۰</span>
+            </div>
+            <div class="justify-self-end">
+              <span class="bg-[#51d88590]">۵۰۰,۰۰۰ ریال</span>
+            </div>
+            <div class="h-13 w-13 rounded-full bg-[#63dc915b] flex justify-center items-center">
+              <img class="size-6" src="/src/img/inbox-archive-line.png" alt="دریافت پایا" />
+            </div>
+            <div>
+              <span class="text-sm block">دریافت پایا</span><span class="text-[12px]">چهارشنبه، ۱۴ آبان ۱۴۰۴ ۱۵:۳۰</span>
+            </div>
+            <div class="justify-self-end">
+              <span class="bg-[#51d88590]">۲۵۰,۰۰۰ ریال</span>
+            </div>
+            <div class="h-13 w-13 rounded-full bg-[#d4d4d48a] flex justify-center items-center">
+              <img class="size-6" src="/src/img/arrow-left-right-line.png" alt="انتقال به کارت" />
+            </div>
+            <div>
+              <span class="text-sm block">انتقال به کارت</span><span class="text-[12px]">چهارشنبه، ۱۴ آبان ۱۴۰۴ ۱۵:۳۰</span>
+            </div>
+            <div class="justify-self-end">
+              <span>۴۸۰,۰۰۰ ریال</span>
+            </div>
+            <div class="h-13 w-13 rounded-full bg-[#d4d4d48a] flex justify-center items-center">
+              <img class="size-6" src="/src/img/shopping-cart-line.png" alt="خرید از فروشگاه" />
+            </div>
+            <div>
+              <span class="text-sm block">خرید از فروشگاه</span><span class="text-[12px]">چهارشنبه، ۱۴ آبان ۱۴۰۴ ۱۵:۳۰</span>
+            </div>
+            <div class="justify-self-end">
+              <span>۷۵۰,۰۰۰ ریال</span>
+            </div>
+            <div class="h-13 w-13 rounded-full bg-[#63dc915b] flex justify-center items-center">
+              <img class="size-6" src="/src/img/inbox-archive-line.png" alt="دریافت از کارت" />
+            </div>
+            <div>
+              <span class="text-sm block">دریافت از کارت</span><span class="text-[12px]">چهارشنبه، ۱۴ آبان ۱۴۰۴ ۱۵:۳۰</span>
+            </div>
+            <div class="justify-self-end">
+              <span class="bg-[#51d88590]">۱,۲۵۰,۰۰۰ ریال</span>
+            </div>
+            <div class="h-13 w-13 rounded-full bg-[#63dc915b] flex justify-center items-center">
+              <img class="size-6" src="/src/img/inbox-archive-line.png" alt="دریافت از کارت" />
+            </div>
+            <div>
+              <span class="text-sm block">دریافت از کارت</span><span class="text-[12px]">چهارشنبه، ۱۴ آبان ۱۴۰۴ ۱۵:۳۰</span>
+            </div>
+            <div class="justify-self-end">
+              <span class="bg-[#51d88590]">۲,۸۰۰,۰۰۰ ریال</span>
+            </div>
+            <div class="h-13 w-13 rounded-full bg-[#d4d4d48a] flex justify-center items-center">
+              <img class="size-6" src="/src/img/shopping-bag-4-line.png" alt="خرید اینترنتی" />
+            </div>
+            <div>
+              <span class="text-sm block">خرید اینترنتی</span><span class="text-[12px]">چهارشنبه، ۱۴ آبان ۱۴۰۴ ۱۵:۳۰</span>
+            </div>
+            <div class="justify-self-end">
+              <span>۹۵۰,۰۰۰ ریال</span>
+            </div>
+            <div class="h-13 w-13 rounded-full bg-[#63dc915b] flex justify-center items-center">
+              <img class="size-6" src="/src/img/inbox-archive-line.png" alt="دریافت پایا" />
+            </div>
+            <div>
+              <span class="text-sm block">دریافت پایا</span><span class="text-[12px]">چهارشنبه، ۱۴ آبان ۱۴۰۴ ۱۵:۳۰</span>
+            </div>
+            <div class="justify-self-end">
+              <span class="bg-[#51d88590]">۱,۵۰۰,۰۰۰ ریال</span>
+            </div>
+            <div class="h-13 w-13 rounded-full bg-[#63dc915b] flex justify-center items-center">
+              <img class="size-6" src="/src/img/inbox-archive-line.png" alt="دریافت پایا" />
+            </div>
+            <div>
+              <span class="text-sm block">دریافت پایا</span><span class="text-[12px]">چهارشنبه، ۱۴ آبان ۱۴۰۴ ۱۵:۳۰</span>
+            </div>
+            <div class="justify-self-end">
+              <span class="bg-[#51d88590]">۷۵۰,۰۰۰ ریال</span>
+            </div>
+            <div class="h-13 w-13 rounded-full bg-[#d4d4d48a] flex justify-center items-center">
+              <img class="size-6" src="/src/img/calendar-check-line.png" alt="پرداخت قسط وام" />
+            </div>
+            <div>
+              <span class="text-sm block">پرداخت قسط وام</span><span class="text-[12px]">چهارشنبه، ۱۴ آبان ۱۴۰۴ ۱۵:۳۰</span>
+            </div>
+            <div class="justify-self-end">
+              <span>۱,۵۰۰,۰۰۰ ریال</span>
+            </div>
+            <div class="h-13 w-13 rounded-full bg-[#63dc915b] flex justify-center items-center">
+              <img class="size-6" src="/src/img/inbox-archive-line.png" alt="دریافت از سپرده" />
+            </div>
+            <div>
+              <span class="text-sm block">دریافت از سپرده</span><span class="text-[12px]">چهارشنبه، ۱۴ آبان ۱۴۰۴ ۱۵:۳۰</span>
+            </div>
+            <div class="justify-self-end">
+              <span class="bg-[#51d88590]">۴۸۰,۰۰۰ ریال</span>
+            </div>
+            <div class="h-13 w-13 rounded-full bg-[#d4d4d48a] flex justify-center items-center">
+              <img class="size-6" src="/src/img/arrow-left-right-line.png" alt="انتقال به سپرده" />
+            </div>
+            <div>
+              <span class="text-sm block">انتقال به سپرده</span><span class="text-[12px]">چهارشنبه، ۱۴ آبان ۱۴۰۴ ۱۵:۳۰</span>
+            </div>
+            <div class="justify-self-end">
+              <span>۳۵۰,۰۰۰ ریال</span>
+            </div>
+            <div class="h-13 w-13 rounded-full bg-[#63dc915b] flex justify-center items-center">
+              <img class="size-6" src="/src/img/inbox-archive-line.png" alt="دریافت از سپرده" />
+            </div>
+            <div>
+              <span class="text-sm block">دریافت از سپرده</span><span class="text-[12px]">چهارشنبه، ۱۴ آبان ۱۴۰۴ ۱۵:۳۰</span>
+            </div>
+            <div class="justify-self-end">
+              <span class="bg-[#51d88590]">۵۰۰,۰۰۰ ریال</span>
+            </div>
+            <div class="h-13 w-13 rounded-full bg-[#63dc915b] flex justify-center items-center">
+              <img class="size-6" src="/src/img/inbox-archive-line.png" alt="دریافت پایا" />
+            </div>
+            <div>
+              <span class="text-sm block">دریافت پایا</span><span class="text-[12px]">چهارشنبه، ۱۴ آبان ۱۴۰۴ ۱۵:۳۰</span>
+            </div>
+            <div class="justify-self-end">
+              <span class="bg-[#51d88590]">۲۵۰,۰۰۰ ریال</span>
+            </div>
+            <div class="h-13 w-13 rounded-full bg-[#d4d4d48a] flex justify-center items-center">
+              <img class="size-6" src="/src/img/arrow-left-right-line.png" alt="انتقال به کارت" />
+            </div>
+            <div>
+              <span class="text-sm block">انتقال به کارت</span><span class="text-[12px]">چهارشنبه، ۱۴ آبان ۱۴۰۴ ۱۵:۳۰</span>
+            </div>
+            <div class="justify-self-end">
+              <span>۴۸۰,۰۰۰ ریال</span>
+            </div>
+            <div class="h-13 w-13 rounded-full bg-[#d4d4d48a] flex justify-center items-center">
+              <img class="size-6" src="/src/img/shopping-cart-line.png" alt="خرید از فروشگاه" />
+            </div>
+            <div>
+              <span class="text-sm block">خرید از فروشگاه</span><span class="text-[12px]">چهارشنبه، ۱۴ آبان ۱۴۰۴ ۱۵:۳۰</span>
+            </div>
+            <div class="justify-self-end">
+              <span>۷۵۰,۰۰۰ ریال</span>
+            </div>
+            <div class="h-13 w-13 rounded-full bg-[#63dc915b] flex justify-center items-center">
+              <img class="size-6" src="/src/img/inbox-archive-line.png" alt="دریافت از کارت" />
+            </div>
+            <div>
+              <span class="text-sm block">دریافت از کارت</span><span class="text-[12px]">چهارشنبه، ۱۴ آبان ۱۴۰۴ ۱۵:۳۰</span>
+            </div>
+            <div class="justify-self-end">
+              <span class="bg-[#51d88590]">۱,۲۵۰,۰۰۰ ریال</span>
+            </div>
+            <div class="h-13 w-13 rounded-full bg-[#63dc915b] flex justify-center items-center">
+              <img class="size-6" src="/src/img/inbox-archive-line.png" alt="دریافت از کارت" />
+            </div>
+            <div>
+              <span class="text-sm block">دریافت از کارت</span><span class="text-[12px]">چهارشنبه، ۱۴ آبان ۱۴۰۴ ۱۵:۳۰</span>
+            </div>
+            <div class="justify-self-end">
+              <span class="bg-[#51d88590]">۲,۸۰۰,۰۰۰ ریال</span>
+            </div>
+            <div class="h-13 w-13 rounded-full bg-[#d4d4d48a] flex justify-center items-center">
+              <img class="size-6" src="/src/img/shopping-bag-4-line.png" alt="خرید اینترنتی" />
+            </div>
+            <div>
+              <span class="text-sm block">خرید اینترنتی</span><span class="text-[12px]">چهارشنبه، ۱۴ آبان ۱۴۰۴ ۱۵:۳۰</span>
+            </div>
+            <div class="justify-self-end">
+              <span>۹۵۰,۰۰۰ ریال</span>
+            </div>
+            <div class="h-13 w-13 rounded-full bg-[#63dc915b] flex justify-center items-center">
+              <img class="size-6" src="/src/img/inbox-archive-line.png" alt="دریافت پایا" />
+            </div>
+            <div>
+              <span class="text-sm block">دریافت پایا</span><span class="text-[12px]">چهارشنبه، ۱۴ آبان ۱۴۰۴ ۱۵:۳۰</span>
+            </div>
+            <div class="justify-self-end">
+              <span class="bg-[#51d88590]">۱,۵۰۰,۰۰۰ ریال</span>
+            </div>
+            <div class="h-13 w-13 rounded-full bg-[#63dc915b] flex justify-center items-center">
+              <img class="size-6" src="/src/img/inbox-archive-line.png" alt="دریافت پایا" />
+            </div>
+            <div>
+              <span class="text-sm block">دریافت پایا</span><span class="text-[12px]">چهارشنبه، ۱۴ آبان ۱۴۰۴ ۱۵:۳۰</span>
+            </div>
+            <div class="justify-self-end">
+              <span class="bg-[#51d88590]">۷۵۰,۰۰۰ ریال</span>
+            </div>
+            <div class="h-13 w-13 rounded-full bg-[#d4d4d48a] flex justify-center items-center">
+              <img class="size-6" src="/src/img/calendar-check-line.png" alt="پرداخت قسط وام" />
+            </div>
+            <div>
+              <span class="text-sm block">پرداخت قسط وام</span><span class="text-[12px]">چهارشنبه، ۱۴ آبان ۱۴۰۴ ۱۵:۳۰</span>
+            </div>
+            <div class="justify-self-end">
+              <span>۱,۵۰۰,۰۰۰ ریال</span>
+            </div>
+            <div class="h-13 w-13 rounded-full bg-[#63dc915b] flex justify-center items-center">
+              <img class="size-6" src="/src/img/inbox-archive-line.png" alt="دریافت از سپرده" />
+            </div>
+            <div>
+              <span class="text-sm block">دریافت از سپرده</span><span class="text-[12px]">چهارشنبه، ۱۴ آبان ۱۴۰۴ ۱۵:۳۰</span>
+            </div>
+            <div class="justify-self-end">
+              <span class="bg-[#51d88590]">۴۸۰,۰۰۰ ریال</span>
+            </div>
+            <div class="h-13 w-13 rounded-full bg-[#d4d4d48a] flex justify-center items-center">
+              <img class="size-6" src="/src/img/arrow-left-right-line.png" alt="انتقال به سپرده" />
+            </div>
+            <div>
+              <span class="text-sm block">انتقال به سپرده</span><span class="text-[12px]">چهارشنبه، ۱۴ آبان ۱۴۰۴ ۱۵:۳۰</span>
+            </div>
+            <div class="justify-self-end">
+              <span>۳۵۰,۰۰۰ ریال</span>
+            </div>
+            <div class="h-13 w-13 rounded-full bg-[#63dc915b] flex justify-center items-center">
+              <img class="size-6" src="/src/img/inbox-archive-line.png" alt="دریافت از سپرده" />
+            </div>
+            <div>
+              <span class="text-sm block">دریافت از سپرده</span><span class="text-[12px]">چهارشنبه، ۱۴ آبان ۱۴۰۴ ۱۵:۳۰</span>
+            </div>
+            <div class="justify-self-end">
+              <span class="bg-[#51d88590]">۵۰۰,۰۰۰ ریال</span>
+            </div>
           </div>
         </div>
       </div>
